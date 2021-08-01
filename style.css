@@ -1,0 +1,353 @@
+
+/*Autor Douglas Phellipe*/
+.classe-header{
+	background-color:#000;
+	right: 0;
+	left: 0;
+	height: 80px;
+}
+.classe-header .topo-menu{
+	position: relative;
+    top: 0;
+    font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    min-height: 54px;
+}
+.classe-header .container{
+	display:flex;
+}
+@media(max-width: 880px){
+	.paginas-menu {
+		display: none!important;
+	}
+	.titulo-banner {
+    font-size: 77px!important;
+    line-height: 80px!important;
+    padding-bottom: 40px;
+    letter-spacing: -0.04em !important;
+    z-index:99999;
+    color:#fff!important;
+}
+}
+.topo-menu:hover{
+	z-index:2;
+	color:#1ed760;
+}
+.logo img{
+	margin-top:20px;
+	width:132px;
+	height: 42px;
+}
+.logo a{
+	display: inline-block;
+	height:40px;
+	width:132px;
+}
+.logo-spotify{
+	width: 100%;
+    height: 100%;
+    font: 0/0 a;
+    display: inline-block;
+}
+.paginas-menu
+{
+	display: inline-block;
+}
+ul.spotify{
+	    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    list-style: none;
+}
+
+.spotify li{
+	padding: 28px 17px;
+	    display: inline-block;
+    font-size: 16px;
+    line-height: inherit;
+    letter-spacing: 0;
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    color:#fff;
+}
+.spotify li:hover{
+    color:#1ed760;
+}
+.divisor{
+	background: currentColor;
+    margin: auto 17px;
+        display: inline-block;
+    height: 16px;
+    width: 1px;
+    padding: 0px!important;
+}
+.banner{
+        background-color: rgb(41, 65, 171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts-mobile.svg);
+    background-position: center top 30%;
+    background-repeat: no-repeat;
+    background-size: 195%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.banner-b{
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-height: 846px;
+}
+.texto-banner{
+	width: 100%;
+
+}
+.texto-banner h1{
+    box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    /*padding: 0px 0px 0.67em;*/
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 900;
+    letter-spacing: -1.75px;
+    line-height: 56px;
+    color: #1ed760;
+}
+@media (min-width: 881px){
+.titulo-banner{
+    font-size: 142px;
+    line-height: 166px!important;
+    padding-bottom: 40px;
+    letter-spacing: -0.04em !important;
+}
+}
+.texto-abaixo{
+	box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    padding: 0px 0px 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #1ed760;
+
+}
+p.texto-abaixo{
+	font-size: 18px!important;
+    line-height: 24px!important;
+    padding-bottom: 40px!important;
+}
+.baixar-spotify{
+	font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: normal;
+    	box-sizing: border-box;
+	font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    border: 0px;
+    border-radius: 500px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    touch-action: manipulation;
+    transition-duration: 33ms;
+    transition-property: background-color, border-color, color, box-shadow, filter, transform;
+    user-select: none;
+    vertical-align: middle;
+    transform: translate3d(0px, 0px, 0px);
+    padding: 0px;
+    align-self: center;
+}
+.btn-spotify{
+	    background-color: var(--background-base,#1ed760);
+    color: var(--text-base,#000000);
+    border-radius: 500px;
+    font-size: inherit;
+    padding: 14px 32px;
+    --background-base: #1ED760 !important;
+    --background-highlight: #2DE26D !important;
+    --background-press: #43E57D !important;
+    --background-elevated: #1ED760 !important;
+    --background-tinted: #1ED760 !important;
+    --background-unsafe-for-small-text: #1ED760 !important;
+    --text-base: #2941AB !important;
+    --text-subdued: #2941AB !important;
+    --text-bright-accent: #2941AB !important;
+    --text-negative: #2941AB !important;
+    --text-warning: #2941AB !important;
+    --text-positive: #2941AB !important;
+    --text-announcement: #2941AB !important;
+    --essential-base: #2941AB !important;
+    --essential-subdued: #2941AB !important;
+    --essential-bright-accent: #2941AB !important;
+    --essential-negative: #2941AB !important;
+    --essential-warning: #2941AB !important;
+    --essential-positive: #2941AB !important;
+    --essential-announcement: #2941AB !important;
+    --decorative-base: #2941AB !important;
+    --decorative-subdued: #2941AB !important;
+}
+.btn-spotify:hover{
+	transform: scale(1.04);
+}
+.btn-spotify:focus{
+    border-radius: 500px;
+    border: 3px solid transparent;
+    border-color: #fff;
+}
+.texto-rodape{
+	font-size: 16px;
+    font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+.rodape-spotify nav{
+	    padding: 80px 0 50px;
+	margin: 0 auto;
+	    background: #000;
+}
+nav.rodape-spotify{
+	    /*display: -webkit-flex;*/
+    display: flex;
+    /*-webkit-flex-wrap: wrap;*/
+    flex-wrap: wrap;
+}
+.rodape-spotify .logo-spotify{
+	padding: 0 15px;
+}
+.logo-spotify a{
+    display: inline-block;
+    height: 40px;
+    width: 132px;
+    margin: 0;
+}
+.logo-spotify img{
+	    text-shadow: none;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    font: 0/0 a;
+    display: inline-block;
+}
+.texto-rodape h2{
+	    color: #919496;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.rodape-spotify .links-bottom{
+	    padding: 0 1px;
+    margin: 0;
+}
+.links-bottom li{
+	list-style: none
+}
+.links-bottom a{
+	padding: 3px 0 15px;
+	display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    color:#fff;
+}
+.links-bottom a:hover{
+	color: #1ed760;
+}
+.redes-sociais{
+	    margin: 0 15px 0 auto;
+}
+.icones{
+	    margin: 20px 0 0;
+    padding: 0;
+}
+.rede-social{
+	margin-right: 15px;	
+	display: inline-block;
+}
+.rede-social a{
+	border-radius: 50%;
+    background-color: #222326;
+        width: 54px!important;
+    height: 54px!important;
+}
+.estilo-rede-social{
+	display: -webkit-inline-flex;
+    display: inline-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 44px;
+    height: 44px;
+}
+.estilo-rede-social img{
+display: block;
+width: 24px;
+height: 24px;
+}
+.copyright{
+	padding-top: 30px;
+width: 100%;
+display: flex;
+}
+.links-copyright{
+margin: 0 45px 0 0;
+padding: 0 0 0 15px;
+}
+.links-copyright li{
+	list-style: none;
+    display: inline-block;
+    line-height: normal;
+    letter-spacing: 0;
+    padding: 0;
+	margin-right: 24px;
+}
+.li-links{
+	    padding: 1em 0;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    -webkit-align-items: center;
+    align-items: center;
+    white-space: nowrap;
+        font-size: 12px;
+    text-decoration: none;
+        color: #919496;
+}
+.li-links:hover{
+	 color: #1ed760;
+}
+.copyright span{
+	margin: 0 15px 0 auto;
+	padding: 1em 0;
+	font-size: 12px;
+	color: #919496;
+}
